@@ -1,0 +1,99 @@
+body{
+	margin:0 auto;
+	background-image: url("imagini/rebusbg.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: sourcesans;
+    src: url(SourceSansPro-Regular.woff);
+}
+ul{	position:fixed;
+	width:100%;
+	background:#080000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+	font-family:bebasregular;
+	box-shadow:0 2px 1px black;
+	z-index:105;
+	white-space: nowrap;	
+	border-bottom:3px solid #65000B;
+	display:block;
+	list-style-type: none;
+	
+	
+}
+li{	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+     text-align: center;
+	color:White;
+	text-shadow:2px 2px 2px grey;
+	transition:0.3s ease;
+	display:inline-block;
+	float:left;
+	
+}
+li:hover{
+	background-color:#980011;
+	cursor:pointer;
+}
+li:nth-child(3){
+	background-color:#65000B;
+}
+
+li:last-child{
+	float:right;
+	
+}
+li:last-child:hover{
+	background:#080000;
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+@font-face{
+	font-family:bebasthin;
+	src:url(BebasNeue-Thin.woff)
+}
+@font-face{
+	font-family:bebasbook;
+	src:url(BebasNeue-Book.woff)
+}
+@font-face{
+	font-family:bebasbold;
+	src:url(BebasNeue-Bold.woff)
+}
+@font-face{
+	font-family:bebaslight;
+	src:url(BebasNeue-Light.woff)
+}
+@font-face {
+    font-family: museo;
+    src: url(museo500.woff);
+}
+@font-face {
+    font-family: sourcesans;
+    src: url(SourceSansPro-Regular.woff);
+}

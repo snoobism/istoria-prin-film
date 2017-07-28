@@ -1,0 +1,124 @@
+body{
+	margin:0 auto;
+	background:black;
+	overflow:hidden;
+	
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: sourcesans;
+    src: url(SourceSansPro-Regular.woff);
+}
+ul{	position:fixed;
+	width:100%;
+	background:#080000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+	font-family:bebasregular;
+	box-shadow:0 2px 1px black;
+	z-index:105;
+	white-space: nowrap;	
+	border-bottom:3px solid #65000B;
+	display:block;
+	list-style-type: none;
+	
+	
+}
+li{	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+     text-align: center;
+	color:White;
+	text-shadow:2px 2px 2px grey;
+	transition:0.3s ease;
+	display:inline-block;
+	float:left;
+	
+}
+li:hover{
+	background-color:#980011;
+	cursor:pointer;
+}
+li:nth-child(4){
+	background-color:#65000B;
+}
+
+li:last-child{
+	float:right;
+	
+}
+li:last-child:hover{
+	background:#080000;
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+#imagini{
+	background-image:url(imagini/bgimagini.jpg);
+	background-size:cover;
+	height:100%;
+	width:49%;
+	display:inline;
+	float:left;
+	transition:0.5s all;
+	border-right:1% solid #470001;
+}
+#imagini:hover{
+	background-image:url(imagini/bgimaginiblur.jpg);
+	 
+}
+#standard{
+	background-image:url(imagini/bgstandard.jpg);
+	background-size:cover;
+	width:49%;
+	height:100%;
+	display:inline;
+	float:right;
+	transition:0.5s all;
+	border-left:1% solid #470001;
+
+}
+#standard:hover{
+	background-image:url(imagini/bgstandardblur.jpg);
+
+}
+.buton{
+	position:relative;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	display:inline-block;
+	font-family:bebasregular;
+	padding-bottom:1%;
+	padding-top:3%;
+	padding-right:1%;
+	padding-left:1%;
+	font-size:400%;
+	color:white;
+	text-shadow:0px 0px 25px black;
+	border-radius:5px;
+	transition:0.3s all ease-in-out;
+	
+	cursor:pointer;
+}
+.buton:hover{
+	font-size:450%;
+	text-shadow:0px 0px 25px red;
+}

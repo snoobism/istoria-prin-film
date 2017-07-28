@@ -1,0 +1,142 @@
+body{
+	margin:0 auto;
+	background:url(imagini/bgtest.png) repeat;
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: sourcesans;
+    src: url(SourceSansPro-Regular.woff);
+}
+ul{	position:fixed;
+	width:100%;
+	background:#080000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+	font-family:bebasregular;
+	box-shadow:0 2px 1px black;
+	z-index:105;
+	white-space: nowrap;	
+	border-bottom:3px solid #65000B;
+	display:block;
+	list-style-type: none;
+	
+}
+li{	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+    display: inline-block;
+     text-align: center;
+	color:White;
+	text-shadow:2px 2px 2px grey;
+	transition:0.3s ease;
+	float:left;
+}
+li:hover{
+	background-color:#980011;
+	cursor:pointer;
+}
+li:nth-child(5){
+	background-color:#65000B;
+}
+
+li:last-child{
+	float:right;
+	
+}
+li:last-child:hover{
+	background:#080000;
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+#contjoc{
+	overflow:hidden;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	border:20px solid black;
+	border-radius:35px;
+	background-color:black;
+	background-image:url(jocnovac/novacbgblur.png);
+	background-size:auto 100%;
+	background-repeat:no-repeat;
+	box-shadow:0px 0px 15px black;	
+	
+
+}
+#caracter{
+	z-index:5;
+	position:absolute;
+	display:block;
+	left:-20%;
+	bottom:10%;
+	transition:3s all;
+}
+
+
+#info{
+	left:50%;
+	transform:translate(-50%,0%);
+	position:relative;
+	border-radius:35px;
+	background-color:black;
+	box-shadow:0px 0px 15px black;
+}
+
+#pic{
+	vertical-align:middle;
+	left:5%;
+	position:relative;
+	border-radius:5px;
+	display:inline-block;
+}
+#text{
+	color:white;
+	font-family:sourcesans;
+	vertical-align:middle;
+	left:10%;
+	display:inline-block;
+	position:relative;
+	width:35%;
+	text-align:center;
+}
+
+strong{
+	color:red;
+	text-shadow:0px 0px 2px red;
+}
+#instructiuni{
+	color:white;
+	font-family:sourcesans;
+	vertical-align:middle;
+	left:10%;
+	display:inline-block;
+	position:relative;
+	width:35%;
+	text-align:center;
+}
+
+#titlu{
+	font-family:bebasregular;
+	font-size:150%;
+}
+
+

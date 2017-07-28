@@ -1,0 +1,267 @@
+body{
+	background: black; 
+	margin:0 auto;
+	text-align:center;
+	overflow-x:hidden;
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: sourcesans;
+    src: url(SourceSansPro-Regular.woff);
+}
+@font-face {
+    font-family: geometria;
+    src: url(geometria.woff);
+}
+@font-face{
+	font-family:bebasthin;
+	src:url(BebasNeue-Thin.woff)
+}
+@font-face{
+	font-family:bebasbook;
+	src:url(BebasNeue-Book.woff)
+}
+@font-face{
+	font-family:bebasbold;
+	src:url(BebasNeue-Bold.woff)
+}
+@font-face{
+	font-family:bebaslight;
+	src:url(BebasNeue-Light.woff)
+}
+ul{	position:fixed;
+	width:100%;
+	background:#080000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+	font-family:bebasregular;
+	box-shadow:0 2px 1px black;
+	z-index:5;
+	white-space: nowrap;	
+	border-bottom:3px solid #65000B;
+	opacity:0;
+	display:block;
+	list-style-type: none;
+}
+li{	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+    display: inline-block;
+     text-align: center;
+	color:White;
+	text-shadow:2px 2px 2px grey;
+	transition:0.3s ease;
+	float:left;
+}
+li:hover{
+	background-color:#980011;
+	cursor:pointer;
+}
+li:first-child{
+		background-color:#65000B;
+}
+li:nth-child(2){
+
+}
+
+li:last-child{
+	float:right;
+	
+}
+li:last-child:hover{
+	background:#080000;
+}
+#camerastart{
+	position:fixed;
+	opacity:0;
+}
+#roll{
+	position:fixed;
+
+}
+p{
+	
+	color:White;
+	text-shadow:0px 0px 12px black;
+	font-family:bebasregular;
+	text-align:center;
+	display:block;
+	
+	
+}
+#span1{
+	opacity:0;
+
+	transition:1s all;
+}
+#span2{
+	opacity:0;
+
+	transition:1s all;
+}
+#span3{
+	opacity:0;
+
+	transition:1s all;
+}
+#vintage{
+	opacity:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	transition:3s all;
+	border:3px solid #65000B;
+	box-shadow:1px 1px 15px black;
+	border-radius:5px;
+}
+#film{
+	color:red;
+	margin-top:10%;
+	-webkit-clip-path: polygon(0 0, 100% 30%, 100% 70%, 0% 100%);
+	clip-path: polygon(0 0, 100% 30%, 100% 70%, 0% 100%);
+	background-image:url(imagini/startbg2.jpg);
+	background-size:100% auto;
+}
+#textfilm{
+	text-shadow:0px 0px 15px black;
+	font-family:geometria;
+	color:white;
+	position:absolute;
+	
+	
+}
+#titlufilm{
+	
+	font-family:bebasregular;
+		color:white;
+	position:absolute;
+	
+	text-shadow:0px 0px 25px black;
+}
+#film2{
+	color:red;
+	-webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+	background-image:url(imagini/startbg3.jpg);
+	background-size:100% auto;
+}
+#textfilm2{
+	text-shadow:0px 0px 15px black;
+	font-family:geometria;
+	color:white;
+	position:absolute;
+	
+	
+}
+#titlufilm2{
+	
+	font-family:bebasregular;
+		color:white;
+	position:absolute;
+	
+	text-shadow:0px 0px 25px black;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+strong{
+	text-shadow:0px 0px 15px white;
+}
+#aplic{
+	box-shadow:0px 0px 25px #470000;
+	margin-top:5%;
+	width:100%;
+	background-image:url("imagini/putem.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+#titluaplic{
+	font-family:bebasregular;
+	color:white;
+	text-shadow:0px 0px 15px black;
+}
+#aplic_elem1{
+	color:white;
+	font-family:bebasregular;
+	text-shadow:0px 0px 15px black;
+}
+#aplic_elem2{
+	color:white;
+	font-family:bebasregular;
+	text-shadow:0px 0px 15px black;
+}
+#aplic_elem3{
+	color:white;
+	font-family:bebasregular;
+	text-shadow:0px 0px 15px black;
+}
+.sageata{
+	
+	vertical-align:middle;
+	color:red;
+	text-shadow:0px 0px 25px black;
+}
+.hideme
+{
+    opacity:0;
+}
+#vidacasa{position:fixed;
+top:0;
+left:0;
+opacity:0;
+transition:1s all;
+z-index:-1;}
+#realiz{box-shadow:0px 0px 25px #470000;
+text-shadow:0px 0px 25px black;
+	
+	color:white;
+	font-family:bebasregular;
+	margin-top:10%;
+	position:relative;
+	background-image:url("imagini/echipaj.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#filler{
+	padding-bottom:5%;
+}
+#recomanda{
+	position:relative;
+	color:white;
+	font-family:bebasbold;
+	text-shadow:0px 0px 25px black;
+	box-shadow:0px 0px 5px #600000;
+	text-align:center;
+	background:linear-gradient(to bottom, #470001, #190a05);
+	display:inline-block;
+	margin:5% auto;
+	padding:1%;
+	transition:0.3s all;
+	opacity:0;
+}
+#recomanda:hover{
+	transform:scale(1.1,1.1);
+	box-shadow:0px 0px 5px gold;
+	
+}
