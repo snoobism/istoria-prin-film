@@ -2,7 +2,7 @@ var y0=window.screen.availHeight;
 var x0=window.screen.availWidth;
 var exer=[],nume=[],elem;
 var pozexer=['0%','0%','0%'];
-var bgexer=['url(imagini/connectbg.jpg)','url(imagini/rebus.jpg)','url(imagini/Hangman.jpg)'];
+var bgexer=['url(http://imgur.com/UBdpxFJ.jpg)','url(http://imgur.com/MzoHKo2.jpg)','url(http://imgur.com/eSEEtwk.jpg)'];
 var bgpoz=['10% 100%','10% 100%','60% 100%'];
 var bgsize=['auto 100%','auto 100%','auto 100%'];
 var numeexer=['connect 2','rebus','spânzurătoarea'];

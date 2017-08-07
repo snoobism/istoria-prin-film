@@ -71,7 +71,7 @@ a{
 }
 
 #imagini{
-	background-image:url(imagini/bgimagini.jpg);
+	background-image:url(http://imgur.com/WE3QC63.jpg);
 	background-size:cover;
 	height:100%;
 	width:49%;
@@ -81,11 +81,11 @@ a{
 	border-right:1% solid #470001;
 }
 #imagini:hover{
-	background-image:url(imagini/bgimaginiblur.jpg);
+	background-image:url(http://imgur.com/ahdO21E.jpg);
 	 
 }
 #standard{
-	background-image:url(imagini/bgstandard.jpg);
+	background-image:url(http://imgur.com/EGnqdPY.jpg);
 	background-size:cover;
 	width:49%;
 	height:100%;
@@ -96,7 +96,7 @@ a{
 
 }
 #standard:hover{
-	background-image:url(imagini/bgstandardblur.jpg);
+	background-image:url(http://imgur.com/LlZHYEQ.jpg);
 
 }
 .buton{

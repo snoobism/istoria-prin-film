@@ -1,5 +1,5 @@
 body{
-	background-image: url(imagini/recomandbg.jpg);
+	background-image: url(http://imgur.com/9HtHMEi.jpg);
 	background-repeat:repeat-y;
 	background-size:100% auto;
 	margin:0 auto;
@@ -130,7 +130,7 @@ a{
 #expl{
 	-webkit-clip-path: polygon(100% 0, 100% 81%, 87% 81%, 83% 100%, 16% 100%, 14% 80%, 0 80%, 0 0);
 clip-path: polygon(100% 0, 100% 81%, 87% 81%, 83% 100%, 16% 100%, 14% 80%, 0 80%, 0 0);
-	background-image:url(imagini/recomintro2.png);
+	background-image:url(http://imgur.com/SJoEnN2.png);
 	background-size:100%;
 	background-repeat:no-repeat;
 	background-position:50% 10%;

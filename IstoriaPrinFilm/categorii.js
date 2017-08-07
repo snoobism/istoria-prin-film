@@ -49,9 +49,9 @@ var lung=0,t,ok=0,z=0;
 function clic(){
 	if(ok==0&&k==0)
 	{bara();
-	document.getElementById("ex").src="imagini/up.png";}
+	document.getElementById("ex").src="http://imgur.com/OPfAZqK.png";}
 	else if(ok==1&&k==0){bara2();
-	document.getElementById("ex").src="imagini/down.png";
+	document.getElementById("ex").src="http://imgur.com/1F72TzW.png";
 	}
 }
 

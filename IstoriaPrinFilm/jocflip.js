@@ -305,14 +305,14 @@ function sonoron(){
 	flip.volume=1;
 	corect.volume=1;
 	musicbg.volume=0.5;
-	document.getElementById('sound').src='imagini/soundon.png';
+	document.getElementById('sound').src='http://imgur.com/8vzxG6y.png';
 }
 function sonoroff(){
 	verifsonor=0;
 	flip.volume=0;
 	corect.volume=0;
 	musicbg.volume=0;
-	document.getElementById('sound').src='imagini/soundoff.png';
+	document.getElementById('sound').src='http://imgur.com/Z6sugR3.png';
 	
 	
 	

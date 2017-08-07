@@ -133,7 +133,7 @@ p{
 	margin-top:10%;
 	-webkit-clip-path: polygon(0 0, 100% 30%, 100% 70%, 0% 100%);
 	clip-path: polygon(0 0, 100% 30%, 100% 70%, 0% 100%);
-	background-image:url(imagini/startbg2.jpg);
+	background-image:url(http://imgur.com/hkMx6Gx.jpg);
 	background-size:100% auto;
 }
 #textfilm{
@@ -156,7 +156,7 @@ p{
 	color:red;
 	-webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
 clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
-	background-image:url(imagini/startbg3.jpg);
+	background-image:url(http://imgur.com/jVrNcIH.jpg);
 	background-size:100% auto;
 }
 #textfilm2{
@@ -187,7 +187,7 @@ strong{
 	box-shadow:0px 0px 25px #470000;
 	margin-top:5%;
 	width:100%;
-	background-image:url("imagini/putem.jpg");
+	background-image:url(http://imgur.com/eC6UyIK.jpg);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,7 +237,7 @@ text-shadow:0px 0px 25px black;
 	font-family:bebasregular;
 	margin-top:10%;
 	position:relative;
-	background-image:url("imagini/echipaj.jpg");
+	background-image:url(http://imgur.com/NRQ6qa7.jpg);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -323,7 +323,7 @@ window.onload = function(){
 	descriere.style.marginRight="auto";
 	descriere.style.textAlign="center";
 	descriere.style.width=0.5*x0+"px";
-	descriere.innerHTML="<p>● Acest test este creat în scopul verificării cunoştinţelor acumulate de-a lungul navigării site-ului din diferite surse ( dicţionarul istoric, descrieri sau chiar rubrica de 'ştiaţi că').</p><p>● Testul cuprinde aproximativ 75 de întrebări, dintre care 10 sunt selectate aleatoriu de fiecare dată când începeţi testul!</p><p>● Viteza testului poate fi schimbată fie din acest buton, fie de cel din colţul sus al aplicaţiei. Cu cât mai multe butoane roşii, cu atât mai dificil</p><div id='viteza' onclick='viteza()' style='background:url(imagini/paper.png);padding:1%;border-radius:25px;box-shadow:0 0 15px black;text-shadow:0 0 10px #65000B;'><span>VITEZA </span><img class='buton' id='b1s' src='imagini/buttonon.png'/><img class='buton' id='b2s' src='imagini/buttonon.png'/><img class='buton' id='b3s' src='imagini/buttonoff.png'/></div>";
+	descriere.innerHTML="<p>● Acest test este creat în scopul verificării cunoştinţelor acumulate de-a lungul navigării site-ului din diferite surse ( dicţionarul istoric, descrieri sau chiar rubrica de 'ştiaţi că').</p><p>● Testul cuprinde aproximativ 75 de întrebări, dintre care 10 sunt selectate aleatoriu de fiecare dată când începeţi testul!</p><p>● Viteza testului poate fi schimbată fie din acest buton, fie de cel din colţul sus al aplicaţiei. Cu cât mai multe butoane roşii, cu atât mai dificil</p><div id='viteza' onclick='viteza()' style='background:url(http://imgur.com/tkI3vHC.png);padding:1%;border-radius:25px;box-shadow:0 0 15px black;text-shadow:0 0 10px #65000B;'><span>VITEZA </span><img class='buton' id='b1s' src='http://imgur.com/ZuYcl7Q.png'/><img class='buton' id='b2s' src='http://imgur.com/ZuYcl7Q.png'/><img class='buton' id='b3s' src='http://imgur.com/gwtPyyc.png'/></div>";
 	descriere.style.fontFamily="sourcesans";
 	descriere.style.color="white";
 	descriere.style.fontSize=0.02*y0+"px";
@@ -419,73 +419,73 @@ function stopbara(){
 	{
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 			}
 		}
 	}
 }
 function corectTimeout11(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout2,1000)
 }
 function corectTimeout12(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout11(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout12,1000)
 }
 function gresitTimeout12(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 
 function corectTimeout21(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout22,1000)
 }
 function corectTimeout22(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout21(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout22,1000)
 }
 function gresitTimeout22(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 
 function corectTimeout31(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout32,1000)
 }
 function corectTimeout32(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout31(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout32,1000)
 }
 function gresitTimeout32(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 function corectTimeout41(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout42,1000)
 }
 function corectTimeout42(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout41(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout42,1000)
 }
 function gresitTimeout42(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 var x0,x1,x2,x3,x4,x5,raspunsuri;
 
@@ -570,20 +570,20 @@ function viteza(){
 	if(vit==3)
 	{
 		vit=1;
-		document.getElementById("b3").src='imagini/buttonoff.png';
-		document.getElementById("b2").src='imagini/buttonoff.png';
-		document.getElementById("b3s").src='imagini/buttonoff.png';
-		document.getElementById("b2s").src='imagini/buttonoff.png';
+		document.getElementById("b3").src='http://imgur.com/gwtPyyc.png';
+		document.getElementById("b2").src='http://imgur.com/gwtPyyc.png';
+		document.getElementById("b3s").src='http://imgur.com/gwtPyyc.png';
+		document.getElementById("b2s").src='http://imgur.com/gwtPyyc.png';
 		speed=0.08;
 	}else if(vit==2){
 		vit=vit+1;
-		document.getElementById("b3").src='imagini/buttonon.png';
-		document.getElementById("b3s").src='imagini/buttonon.png';
+		document.getElementById("b3").src='http://imgur.com/ZuYcl7Q.png';
+		document.getElementById("b3s").src='http://imgur.com/ZuYcl7Q.png';
 		speed=0.2;
 	}else if(vit==1){
 		vit=vit+1;
-		document.getElementById("b2").src='imagini/buttonon.png';
-		document.getElementById("b2s").src='imagini/buttonon.png';
+		document.getElementById("b2").src='http://imgur.com/ZuYcl7Q.png';
+		document.getElementById("b2s").src='http://imgur.com/ZuYcl7Q.png';
 		speed=0.125;
 	}
 	
@@ -699,20 +699,20 @@ function apasat1(){
 	if(x1===x5)
 	{	corect.play();
 		corect.volume=0.2;
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout11,250);
 		setTimeout(corectTimeout12,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout11,250);
 		setTimeout(gresitTimeout12,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}
@@ -731,20 +731,20 @@ function apasat2(){
 	if(x2===x5)
 	{	corect.play();
 		corect.volume=0.2;
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout21,250);
 		setTimeout(corectTimeout22,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout21,250);
 		setTimeout(gresitTimeout22,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}
@@ -763,20 +763,20 @@ function apasat3(){
 	if(x3===x5)
 	{	corect.play();
 		corect.volume=0.2;
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout31,250);
 		setTimeout(corectTimeout32,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout31,250);
 		setTimeout(gresitTimeout32,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}
@@ -795,20 +795,20 @@ function apasat4(){
 	if(x4===x5)
 	{	corect.volume=0.2;
 		corect.play();
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout41,250);
 		setTimeout(corectTimeout42,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout41,250);
 		setTimeout(gresitTimeout42,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}

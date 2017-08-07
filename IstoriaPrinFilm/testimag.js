@@ -320,7 +320,7 @@ window.onload = function(){
 	descriere.style.marginRight="auto";
 	descriere.style.textAlign="center";
 	descriere.style.width=0.5*x0+"px";
-	descriere.innerHTML="<p>● Acest test este creat în scopul verificării cunoştinţelor acumulate de-a lungul navigării site-ului prin utilizarea imaginilor din galeria istorică a fiecărui film.</p><p>● Testul cuprinde aproximativ 80 de întrebări, dintre care 10 sunt selectate aleatoriu de fiecare dată când începeţi testul!</p><p>● Viteza testului poate fi schimbată fie din acest buton, fie de cel din colţul sus al aplicaţiei. Cu cât mai multe butoane roşii, cu atât mai dificil</p><div id='viteza' onclick='viteza()' style='background:url(imagini/paper.png);padding:1%;border-radius:25px;box-shadow:0 0 15px black;text-shadow:0 0 10px #65000B;'><span>VITEZA </span><img class='buton' id='b1s' src='imagini/buttonon.png'/><img class='buton' id='b2s' src='imagini/buttonon.png'/><img class='buton' id='b3s' src='imagini/buttonoff.png'/></div>";
+	descriere.innerHTML="<p>● Acest test este creat în scopul verificării cunoştinţelor acumulate de-a lungul navigării site-ului prin utilizarea imaginilor din galeria istorică a fiecărui film.</p><p>● Testul cuprinde aproximativ 80 de întrebări, dintre care 10 sunt selectate aleatoriu de fiecare dată când începeţi testul!</p><p>● Viteza testului poate fi schimbată fie din acest buton, fie de cel din colţul sus al aplicaţiei. Cu cât mai multe butoane roşii, cu atât mai dificil</p><div id='viteza' onclick='viteza()' style='background:url(http://imgur.com/tkI3vHC.png);padding:1%;border-radius:25px;box-shadow:0 0 15px black;text-shadow:0 0 10px #65000B;'><span>VITEZA </span><img class='buton' id='b1s' src='http://imgur.com/ZuYcl7Q.png'/><img class='buton' id='b2s' src='http://imgur.com/ZuYcl7Q.png'/><img class='buton' id='b3s' src='http://imgur.com/gwtPyyc.png'/></div>";
 	descriere.style.fontFamily="sourcesans";
 	descriere.style.color="white";
 	descriere.style.fontSize=0.02*y0+"px";
@@ -417,154 +417,154 @@ function stopbara(){
 	{
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 			}
 		}
 	}
 }
 function corectTimeout11(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout2,1000)
 }
 function corectTimeout12(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout11(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout12,1000)
 }
 function gresitTimeout12(){
-	document.getElementById("c1").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c1").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 
 function corectTimeout21(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout22,1000)
 }
 function corectTimeout22(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout21(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout22,1000)
 }
 function gresitTimeout22(){
-	document.getElementById("c2").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c2").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 
 function corectTimeout31(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout32,1000)
 }
 function corectTimeout32(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout31(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout32,1000)
 }
 function gresitTimeout32(){
-	document.getElementById("c3").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c3").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 function corectTimeout41(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(corectTimeout42,1000)
 }
 function corectTimeout42(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripecorect.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 	
 }
 function gresitTimeout41(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripe2.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/j5zuYpt.png) repeat";
 		setTimeout(gresitTimeout42,1000)
 }
 function gresitTimeout42(){
-	document.getElementById("c4").style.background="#222 url(imagini/stripeincorect.png) repeat";
+	document.getElementById("c4").style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 }
 var x0,x1,x2,x3,x4,x5,x6,raspunsuri;
 
 
 
 var a=[
-		["Cine este această persoană?","Oskar Schindler","Ţarul Nicolae al II-lea","Alexandru Ioan Cuza","Arhiducele Franz Ferdinand","Ţarul Nicolae al II-lea","imaginitest/admiralist1.jpg"],
-		["Uniformele cărei armate din Revoluţia Rusă sunt acestea? ","Armata roşie","Armata albă","Armata neagră","Armata albastră","Armata roşie","imaginitest/admiralist3.jpg"],
-		["Uniformele cărei armate din Revoluţia Rusă sunt acestea? ","Armata roşie","Armata albă","Armata neagră","Armata albastră","Armata albă","imaginitest/admiralist2.jpg"],
-		["Cine este această persoană?","Sfântul Ioan","Andrei Rubleov","Alexandr Nevsky","Ivan cel Groaznic","Alexandr Nevsky","imaginitest/alexandrist1.jpg"],
-		["Din ce ordin fac parte aceşti cavaleri?","Ordinul Cavalerilor Soarelui","Ordinul Cavalerilor mesei rotunde","Ordinul Cavalerilor Mării Negre","Ordinul Cavalerilor Teutonici","Ordinul Cavalerilor Teutonici","imaginitest/alexandrist2.jpg"],
-		["Ce bătălie este aceasta?","Marea Bătălie din Siberia","Bătălia de la Rovine","Cucerirea Kazanului","Bătălia de pe gheaţă","Bătălia de pe gheaţă","imaginitest/alexandrist3.jpg"],
-		["Unde se petrece mişcarea naţionalistă din imagine?","India","Algeria","SUA","Egipt","Algeria","imaginitest/algeriaist1.jpg"],
-		["Cine este această persoană?","Mohamed I","Sultanul Arabiei Saudite","T.E.Lawrence","Şeicul Alabi Bababi","T.E.Lawrence","imaginitest/arabiaist1.jpg"],
-		["În timpul cărei revolte se petrece această batălie?","Revolta egipteană","Revolta arabă","Revolta otomană","Revolta algeriană","Revolta arabă","imaginitest/arabiaist3.jpg"],
-		["Cine este această persoană?","Ulysses S. Grant","Abraham Lincoln","Robert E. Lee","Richard Nixon","Robert E. Lee","imaginitest/aripiist1.jpg"],
-		["Cine este această persoană?","Ulysses S. Grant","Abraham Lincoln","Robert E. Lee","Richard Nixon","Ulysses S. Grant","imaginitest/aripiist2.jpg"],
-		["De cine era purtată această uniformă în timpul Războiului de secesiune?","Armata unionistă","Armata confederată","Armata britanică","Armata canadiană","Armata confederată","imaginitest/birthist2.jpg"],
-		["Cum se numea acest stadion de curse de care?","Circus Maximus","Rapida Colosus","Stadionum","Cursus Fastus","Circus Maximus","imaginitest/benhurist3.jpg"],
-		["Ce bătălie este aceasta?","Bătălia de la Gettysburg","Bătălia de la Waterloo","Bătălia de la Shiloh","Bătălia de la Vicksburg","Bătălia de la Gettysburg","imaginitest/birthist3.jpg"],
-		["Cum se numeşte grupul acesta?","Fantomele roşii","Dreapta alternativă","Ku-Klux-Klan","Armata albă","Ku-Klux-Klan","imaginitest/birthist4.jpg"],
-		["Cine este această persoană?","Henry al VIII-lea","Andrei Rubleov","William Wallace","Alexandr Nevsky","William Wallace","imaginitest/braveheartist1.jpg"],
-		["Cine este această persoană?","Confucius","Burebista","Traian","Decebal","Decebal","imaginitest/columnaist1.jpg"],
-		["Cine este această persoană?","Prinţul William","Burebista","Traian","Alexandru cel Mare","Traian","imaginitest/columnaist2.jpg"],
-		["Cum se numeşte aceast monument?","Coloana Infinitului","Turnul din Alexandria","Coloana lui Macedon","Columna lui Traian","Columna lui Traian","imaginitest/columnaist3.jpg"],
-		["Ce eveniment este ilustrat pe această porţiune de pe Columna lui Traian?","Moartea lui Domiliţian","Capturarea lui Spartacus","Sinuciderea lui Decebal","Moartea lui Cornelius Fuscus","Sinuciderea lui Decebal","imaginitest/columnaist4.jpg"],
-		["Cum se numeşte această navă devenită celebra în timpul Revoluţiei Ruse?","Potemkin","Octombrie roşu","USS Ivanoviciov","Anastasia","Potemkin","imaginitest/crucisatorist1.jpg"],
-		["Al cui este acest stindar de lupta?","Al goţilor","Al dacilor","Al celţilor","Al bizantinilor","Al dacilor","imaginitest/daciiist1.jpg"],
-		["Cine folosea aceste arme?","Romanii","Celţii","Slavii","Dacii","Dacii","imaginitest/daciiist3.jpg"],
-		["Cine este această persoană?","Împăratul Traian","Decebal","Împăratul Domiţian","Pitagora","Împăratul Domiţian","imaginitest/daciiist4.jpg"],
-		["De unde provine acest tip de submarin?","Germania","America","URSS","Romania","Germania","imaginitest/dasbootist1.jpg"],
-		["Unde se găseşte această bază de submarine abandonată?","Germania","URSS","China","Marea Britanie","Germania","imaginitest/dasbootist2.jpg"],
-		["Înaintea cărui eveniment este manifestarea ilustrată în imagine?","Cruciada a IV-a","Duminica însângerată","Revoluţia de la 1821","Holocaust","Duminica însângerată","imaginitest/donist1.jpg"],
-		["Din ce grup erau aceste persoane?","Familia Rothschild","Poliţia rusă secretă","Luftwaffe","Marina română","Poliţia rusă secretă","imaginitest/donist3.jpg"],
-		["Cine este această persoană?","Oskar Schindler","T.E.Lawrence","Franz Ferdinand","Mahatma Gandhi","Mahatma Gandhi","imaginitest/gandhiist1.jpg"],
-		["În timpul cărui marş se află Gandhi în această imagine?","Marşul Sării","Marşul Indiei","Marşul Păcii","Marşul Peninsulei","Marşul Sării","imaginitest/gandhiist3.jpg"],
-		["Ce redută este cucerită în această imagine?","Griviţa","Smârdan","Vidin","Rovine","Griviţa","imaginitest/indepist1.jpg"],
-		["Cum se numeşte atacul din această imagine?","Atacul de la Plevna","Atacul de la Smârdan","Atacul de la Vidin","Atacul de la Călugăreni","Atacul de la Smârdan","imaginitest/indepist2.jpg"],
-		["După ce război atinge România această întindere teritorială?","Primul Război Mondial","Al Doilea Război Mondial","Războiul ruso-turc","Războiul de secesiune","Războiul ruso-turc","imaginitest/indepist3.jpg"],
-		["Cine este această persoană?","Alexandru Ioan Cuza","Carol I","Ţarul Nicolae al II-lea","Franz Ferdinand","Carol I","imaginitest/indepist4.jpg"],
-		["Ce oraş din Antichitate este acesta?","Alexandria","Sarmizegetusa","Babilon","Atena","Babilon","imaginitest/intoleranceist1.jpg"],
-		["Ale cărui oraş antic sunt aceste ruine?","Alexandria","Sarmizegetusa","Babilon","Atena","Babilon","imaginitest/intoleranceist2.jpg"],
-		["Ce război/războaie sunt ilustrate în această imagine?","Războaiele Daco-Romane","Războiul de 100 de ani","Războaiele religioase franceze","Războiul ruso-turc","Războaiele religioase franceze","imaginitest/intoleranceist3.jpg"],
-		["Cine este această persoană?","Alexandru cel Mare","Împăratul Justinian","Cyrus cel Mare","Genghis Khan","Cyrus cel Mare","imaginitest/intoleranceist4.jpg"],
-		["Cine este această persoană?","Ţarul Nicolae al II-lea","Ivan cel Groaznic","Iosif Stalin","Genghis Khan","Ivan cel Groaznic","imaginitest/ivanist1.jpg"],
-		["Ce este ilustrat în această imagine?","moartea fiului lui Ivan cel Groaznic","asasinarea lui Franz Ferdinand","asasinarea lui John F. Kennedy","moartea lui Nicolae al II-lea","moartea fiului lui Ivan cel Groaznic","imaginitest/ivanist2.jpg"],
-		["Ce este ilustrat în această imagine?","Revolta arabă","Revolta otomană","Cucerirea Kazanului","Asaltul de la Plevna","Cucerirea Kazanului","imaginitest/ivanist3.jpg"],
-		["În timpul cui a fost construită catedrala din imagine?","Ecaterina a II-a","Ivan cel Groaznic","Nicolae al II-lea","Vladimir Lenin","Ivan cel Groaznic","imaginitest/ivanist4.jpg"],
-		["Cine este această persoană?","Maria Teresa","Ioana D'Arc","Marine Le Pen","Regina Elizabeta","Ioana D'Arc","imaginitest/joanist1.jpg"],
-		["Cine este această persoană?","Maria Teresa","Ioana D'Arc","Marine Le Pen","Regina Elizabeta","Ioana D'Arc","imaginitest/joanist4.jpg"],
-		["Cum era numită calea ferată din imagine?","Calea ferată a Împăratului","Calea ferată naţională a Japoniei","Calea Orientului","Calea ferată a morţii","Calea ferată a morţii","imaginitest/kwaiist1.jpg"],
-		["În memoria cui este făcut acest monument?","Moartea a 236 de oameni şi 51 de răniţi în urma prăbuşirii metroului din Japonia","Deraiarea unui tren de mare viteză cu zeci de morţi","Prizonierilor de război ucişi în timpul construcţiei căii ferate a morţii","Prăbuşirea căii ferate Kayuchio într-un râu","Prizonierilor de război ucişi în timpul construcţiei căii ferate a morţii","imaginitest/kwaiist4.jpg"],
-		["Cum se numeşte locul din imagine unde au debarcat aliaţii în timpul celui de-al Doilea Război Mondial?","Pas de Calais","Normandia","Stalingrad","Hiroshima","Normandia","imaginitest/longestist1.jpg"],
-		["Cine este această persoană?","Leonardo Da Vinci","Socrates","Michelangelo","Vincent Van Gogh","Michelangelo","imaginitest/michelangeloist1.jpg"],
-		["Ce sculptură este aceasta?","Gânditorul","Hermes","David","Pieta","David","imaginitest/michelangeloist2.jpg"],
-		["Ce sculptură este aceasta?","Gânditorul","Hermes","David","Pieta","Pieta","imaginitest/michelangeloist3.jpg"],
-		["Unde se află aceste picturi?","Muzeul Luvre","Capela Sixtină","Catedrala Mântuirii Neamului","Palatul Buckingham","Capela Sixtină","imaginitest/michelangeloist4.jpg"],
-		["Cine este această persoană?","Mircea cel Bătrân","Mihai Viteazul","Ştefan cel Mare","Alexandru Ioan Cuza","Mihai Viteazul","imaginitest/mihaiist1.jpg"],
-		["Sub domnia cui a avut Ţara Românească acest teritoriu?","Mircea cel Bătrân","Decebal","Mihai Viteazul","Alexandru Ioan Cuza","Mircea cel Bătrân","imaginitest/mirceaist4.jpg"],
-		["Ce bătălie este ilustrată în imagine?","Bătălia de la Waterloo","Bătălia de la Vaslui","Asediul Griviţei","Bătălia de la Călugareni","Bătălia de la Călugareni","imaginitest/mihaiist2.jpg"],
-		["Sub domnia cui au avut ţările române acest teritoriu?","Mircea cel Bătrân","Decebal","Mihai Viteazul","Alexandru Ioan Cuza","Mihai Viteazul","imaginitest/mihaiist4.jpg"],
-		["Cine este această persoană?","Mircea cel Bătrân","Decebal","Mihai Viteazul","Ştefan cel Mare","Mircea cel Bătrân","imaginitest/mirceaist1.jpg"],
-		["Ce bătălie este ilustrată în imagine?","Bătălia de la Aqaba","Asaltul Plevnei","Bătălia de la Rovine","Cucerirea Kazanului","Bătălia de la Rovine","imaginitest/mirceaist2.jpg"],
-		["Cine a fost această persoană?","Mohamed I","Şeicul Alabi Bababi","Mahatma Gandhi","Baiazid al III-lea","Mohamed I","imaginitest/mirceaist3.jpg"],
-		["Cine a fost această persoană?","Napoleon Bonaparte","Alexandru Ioan Cuza","Nicolae al II-lea","Filip al II-lea","Napoleon Bonaparte","imaginitest/napoleonist1.jpg"],
-		["Cine a fost această persoană?","Napoleon Bonaparte","Alexandru Ioan Cuza","Nicolae al II-lea","Filip al II-lea","Napoleon Bonaparte","imaginitest/napoleonist2.jpg"],
-		["Ce bătălie este ilustrată în imagine?","Bătălia de la Waterloo","Bătălia de la Kursk","Bătălia de la Călugăreni","Bătălia de la Bannockburn","Bătălia de la Waterloo","imaginitest/napoleonist3.jpg"],
-		["Cine este această persoană?","Erwin Rommel","Donald Trump","George Smith Patton","Dwight Eisenhower","George Smith Patton","imaginitest/pattonist1.jpg"],
-		["De unde provine acest model de tanc?","America","Japonia","Rusia","Germania","America","imaginitest/pattonist2.jpg"],
-		["De unde provine acest model de tanc?","America","Japonia","Rusia","Germania","Germania","imaginitest/pattonist3.jpg"],
-		["Unde a fost făcută această poză?","Mongolia","Filipine","Vietnam","Rusia","Vietnam","imaginitest/platoonist3.jpg"],
-		["Cine a fost această persoană?","Vladimir Lenin","Nicolae Ceauşescu","Iosif Stalin","Fidel Castro","Vladimir Lenin","imaginitest/redsist1.jpg"],
-		["Cum se numeşte pictura din imagine?","Cina cea de taină","Sfânta Treime","Mântuitorul în glorie","Botezul lui Iisus","Sfânta Treime","imaginitest/rublevist1.jpg"],
-		["Cum se numeşte pictura din imagine?","Cina cea de taină","Sfânta Treime","Mântuitorul în glorie","Botezul lui Iisus","Mântuitorul în glorie","imaginitest/rublevist2.jpg"],
-		["Cum se numeşte pictura din imagine?","Cina cea de taină","Sfânta Treime","Mântuitorul în glorie","Botezul lui Iisus","Botezul lui Iisus","imaginitest/rublevist3.jpg"],
-		["Cine a fost această persoană?","Henry al VIII-lea","Thomas More","William Wallace","Filip al II-lea al Spaniei","Henry al VIII-lea","imaginitest/seasonsist1.jpg"],
-		["Cine a fost această persoană?","Henry al VIII-lea","Thomas More","William Wallace","Filip al II-lea al Spaniei","Thomas More","imaginitest/seasonsist2.jpg"],
-		["Cine este această persoană?","David","Spartacus","Socrates","Platon","Spartacus","imaginitest/spartacusist3.jpg"],
-		["Ce se află în această imagine","Prima bombă atomică construită","Prima bombă atomică folosită într-un conflict","Prima mină subacvatică","Primul minisubmarin","Prima bombă atomică construită","imaginitest/tarmist1.jpg"],
-		["Ce se află în această imagine","Prima bombă atomică construită","Prima bombă atomică folosită într-un conflict","Prima mină subacvatică","Primul minisubmarin","Prima bombă atomică folosită într-un conflict","imaginitest/tarmist2.jpg"],
-		["Cine este această persoană?","Mircea cel Bătrân","Tudor Vladimirescu","Ion Brătianu","Ştefan cel Mare","Tudor Vladimirescu","imaginitest/tudorist1.jpg"]
+		["Cine este această persoană?","Oskar Schindler","Ţarul Nicolae al II-lea","Alexandru Ioan Cuza","Arhiducele Franz Ferdinand","Ţarul Nicolae al II-lea","http://imgur.com/pkAOjx6.jpg"],
+		["Uniformele cărei armate din Revoluţia Rusă sunt acestea? ","Armata roşie","Armata albă","Armata neagră","Armata albastră","Armata roşie","http://imgur.com/Z27D0Lr.jpg"],
+		["Uniformele cărei armate din Revoluţia Rusă sunt acestea? ","Armata roşie","Armata albă","Armata neagră","Armata albastră","Armata albă","http://imgur.com/KRc4TPs.jpg"],
+		["Cine este această persoană?","Sfântul Ioan","Andrei Rubleov","Alexandr Nevsky","Ivan cel Groaznic","Alexandr Nevsky","http://imgur.com/8K6PL01.jpg"],
+		["Din ce ordin fac parte aceşti cavaleri?","Ordinul Cavalerilor Soarelui","Ordinul Cavalerilor mesei rotunde","Ordinul Cavalerilor Mării Negre","Ordinul Cavalerilor Teutonici","Ordinul Cavalerilor Teutonici","http://imgur.com/qRSROiG.jpg"],
+		["Ce bătălie este aceasta?","Marea Bătălie din Siberia","Bătălia de la Rovine","Cucerirea Kazanului","Bătălia de pe gheaţă","Bătălia de pe gheaţă","http://imgur.com/2N5Xevj.jpg"],
+		["Unde se petrece mişcarea naţionalistă din imagine?","India","Algeria","SUA","Egipt","Algeria","http://imgur.com/P4zzvyW.jpg"],
+		["Cine este această persoană?","Mohamed I","Sultanul Arabiei Saudite","T.E.Lawrence","Şeicul Alabi Bababi","T.E.Lawrence","http://imgur.com/bXjkDt8.jpg"],
+		["În timpul cărei revolte se petrece această batălie?","Revolta egipteană","Revolta arabă","Revolta otomană","Revolta algeriană","Revolta arabă","http://imgur.com/mOVwX3E.jpg"],
+		["Cine este această persoană?","Ulysses S. Grant","Abraham Lincoln","Robert E. Lee","Richard Nixon","Robert E. Lee","http://imgur.com/jhQnc2e.jpg"],
+		["Cine este această persoană?","Ulysses S. Grant","Abraham Lincoln","Robert E. Lee","Richard Nixon","Ulysses S. Grant","http://imgur.com/qL6p0Fr.jpg"],
+		["De cine era purtată această uniformă în timpul Războiului de secesiune?","Armata unionistă","Armata confederată","Armata britanică","Armata canadiană","Armata confederată","http://imgur.com/CgtyQtZ.jpg"],
+		["Cum se numea acest stadion de curse de care?","Circus Maximus","Rapida Colosus","Stadionum","Cursus Fastus","Circus Maximus","http://imgur.com/MiEEe0w.jpg"],
+		["Ce bătălie este aceasta?","Bătălia de la Gettysburg","Bătălia de la Waterloo","Bătălia de la Shiloh","Bătălia de la Vicksburg","Bătălia de la Gettysburg","http://imgur.com/deUqzjx.jpg"],
+		["Cum se numeşte grupul acesta?","Fantomele roşii","Dreapta alternativă","Ku-Klux-Klan","Armata albă","Ku-Klux-Klan","http://imgur.com/UpilK9t.jpg"],
+		["Cine este această persoană?","Henry al VIII-lea","Andrei Rubleov","William Wallace","Alexandr Nevsky","William Wallace","http://imgur.com/br6cYW1.jpg"],
+		["Cine este această persoană?","Confucius","Burebista","Traian","Decebal","Decebal","http://imgur.com/uCdADcQ.jpg"],
+		["Cine este această persoană?","Prinţul William","Burebista","Traian","Alexandru cel Mare","Traian","http://imgur.com/GUvWbx5.jpg"],
+		["Cum se numeşte aceast monument?","Coloana Infinitului","Turnul din Alexandria","Coloana lui Macedon","Columna lui Traian","Columna lui Traian","http://imgur.com/xVewpCq.jpg"],
+		["Ce eveniment este ilustrat pe această porţiune de pe Columna lui Traian?","Moartea lui Domiliţian","Capturarea lui Spartacus","Sinuciderea lui Decebal","Moartea lui Cornelius Fuscus","Sinuciderea lui Decebal","http://imgur.com/WzbFqqn.jpg"],
+		["Cum se numeşte această navă devenită celebra în timpul Revoluţiei Ruse?","Potemkin","Octombrie roşu","USS Ivanoviciov","Anastasia","Potemkin","http://imgur.com/dulWVTr.jpg"],
+		["Al cui este acest stindar de lupta?","Al goţilor","Al dacilor","Al celţilor","Al bizantinilor","Al dacilor","http://imgur.com/JNAVOAo.jpg"],
+		["Cine folosea aceste arme?","Romanii","Celţii","Slavii","Dacii","Dacii","http://imgur.com/NvvTtK0.jpg"],
+		["Cine este această persoană?","Împăratul Traian","Decebal","Împăratul Domiţian","Pitagora","Împăratul Domiţian","http://imgur.com/zsfSlQU.jpg"],
+		["De unde provine acest tip de submarin?","Germania","America","URSS","Romania","Germania","http://imgur.com/ZuToNw6.jpg"],
+		["Unde se găseşte această bază de submarine abandonată?","Germania","URSS","China","Marea Britanie","Germania","http://imgur.com/UI4lfDH.jpg"],
+		["Înaintea cărui eveniment este manifestarea ilustrată în imagine?","Cruciada a IV-a","Duminica însângerată","Revoluţia de la 1821","Holocaust","Duminica însângerată","http://imgur.com/m0g5w2n.jpg"],
+		["Din ce grup erau aceste persoane?","Familia Rothschild","Poliţia rusă secretă","Luftwaffe","Marina română","Poliţia rusă secretă","http://imgur.com/QGm1ef1.jpg"],
+		["Cine este această persoană?","Oskar Schindler","T.E.Lawrence","Franz Ferdinand","Mahatma Gandhi","Mahatma Gandhi","http://imgur.com/gsfWhzR.jpg"],
+		["În timpul cărui marş se află Gandhi în această imagine?","Marşul Sării","Marşul Indiei","Marşul Păcii","Marşul Peninsulei","Marşul Sării","http://imgur.com/wU4xwWH.jpg"],
+		["Ce redută este cucerită în această imagine?","Griviţa","Smârdan","Vidin","Rovine","Griviţa","http://imgur.com/ZIzAik1.jpg"],
+		["Cum se numeşte atacul din această imagine?","Atacul de la Plevna","Atacul de la Smârdan","Atacul de la Vidin","Atacul de la Călugăreni","Atacul de la Smârdan","http://imgur.com/IQQdzOv.jpg"],
+		["După ce război atinge România această întindere teritorială?","Primul Război Mondial","Al Doilea Război Mondial","Războiul ruso-turc","Războiul de secesiune","Războiul ruso-turc","http://imgur.com/c2QudQY.jpg"],
+		["Cine este această persoană?","Alexandru Ioan Cuza","Carol I","Ţarul Nicolae al II-lea","Franz Ferdinand","Carol I","http://imgur.com/TyUfSDY.jpg"],
+		["Ce oraş din Antichitate este acesta?","Alexandria","Sarmizegetusa","Babilon","Atena","Babilon","http://imgur.com/oSLIl1y.jpg"],
+		["Ale cărui oraş antic sunt aceste ruine?","Alexandria","Sarmizegetusa","Babilon","Atena","Babilon","http://imgur.com/q8pnMVC.jpg"],
+		["Ce război/războaie sunt ilustrate în această imagine?","Războaiele Daco-Romane","Războiul de 100 de ani","Războaiele religioase franceze","Războiul ruso-turc","Războaiele religioase franceze","http://imgur.com/Q6dvB4Z.jpg"],
+		["Cine este această persoană?","Alexandru cel Mare","Împăratul Justinian","Cyrus cel Mare","Genghis Khan","Cyrus cel Mare","http://imgur.com/Mx3iEzC.jpg"],
+		["Cine este această persoană?","Ţarul Nicolae al II-lea","Ivan cel Groaznic","Iosif Stalin","Genghis Khan","Ivan cel Groaznic","http://imgur.com/DFNnUfo.jpg"],
+		["Ce este ilustrat în această imagine?","moartea fiului lui Ivan cel Groaznic","asasinarea lui Franz Ferdinand","asasinarea lui John F. Kennedy","moartea lui Nicolae al II-lea","moartea fiului lui Ivan cel Groaznic","http://imgur.com/KvbgmOU.jpg"],
+		["Ce este ilustrat în această imagine?","Revolta arabă","Revolta otomană","Cucerirea Kazanului","Asaltul de la Plevna","Cucerirea Kazanului","http://imgur.com/T979Ld8.jpg"],
+		["În timpul cui a fost construită catedrala din imagine?","Ecaterina a II-a","Ivan cel Groaznic","Nicolae al II-lea","Vladimir Lenin","Ivan cel Groaznic","http://imgur.com/dQYUNiK.jpg"],
+		["Cine este această persoană?","Maria Teresa","Ioana D'Arc","Marine Le Pen","Regina Elizabeta","Ioana D'Arc","http://imgur.com/gYRLt3p.jpg"],
+		["Cine este această persoană?","Maria Teresa","Ioana D'Arc","Marine Le Pen","Regina Elizabeta","Ioana D'Arc","http://imgur.com/PZInLZS.jpg"],
+		["Cum era numită calea ferată din imagine?","Calea ferată a Împăratului","Calea ferată naţională a Japoniei","Calea Orientului","Calea ferată a morţii","Calea ferată a morţii","http://imgur.com/9GzoJdX.jpg"],
+		["În memoria cui este făcut acest monument?","Moartea a 236 de oameni şi 51 de răniţi în urma prăbuşirii metroului din Japonia","Deraiarea unui tren de mare viteză cu zeci de morţi","Prizonierilor de război ucişi în timpul construcţiei căii ferate a morţii","Prăbuşirea căii ferate Kayuchio într-un râu","Prizonierilor de război ucişi în timpul construcţiei căii ferate a morţii","http://imgur.com/mfAhZzb.jpg"],
+		["Cum se numeşte locul din imagine unde au debarcat aliaţii în timpul celui de-al Doilea Război Mondial?","Pas de Calais","Normandia","Stalingrad","Hiroshima","Normandia","http://imgur.com/uyKUWDJ.jpg"],
+		["Cine este această persoană?","Leonardo Da Vinci","Socrates","Michelangelo","Vincent Van Gogh","Michelangelo","http://imgur.com/tRk1H2T.jpg"],
+		["Ce sculptură este aceasta?","Gânditorul","Hermes","David","Pieta","David","http://imgur.com/oFL1Qco.jpg"],
+		["Ce sculptură este aceasta?","Gânditorul","Hermes","David","Pieta","Pieta","http://imgur.com/0EAYemu.jpg"],
+		["Unde se află aceste picturi?","Muzeul Luvre","Capela Sixtină","Catedrala Mântuirii Neamului","Palatul Buckingham","Capela Sixtină","http://imgur.com/t8pzioL.jpg"],
+		["Cine este această persoană?","Mircea cel Bătrân","Mihai Viteazul","Ştefan cel Mare","Alexandru Ioan Cuza","Mihai Viteazul","http://imgur.com/j6oxCdV.jpg"],
+		["Sub domnia cui a avut Ţara Românească acest teritoriu?","Mircea cel Bătrân","Decebal","Mihai Viteazul","Alexandru Ioan Cuza","Mircea cel Bătrân","http://imgur.com/n9Nemdt.jpg"],
+		["Ce bătălie este ilustrată în imagine?","Bătălia de la Waterloo","Bătălia de la Vaslui","Asediul Griviţei","Bătălia de la Călugareni","Bătălia de la Călugareni","http://imgur.com/X2Xryyq.jpg"],
+		["Sub domnia cui au avut ţările române acest teritoriu?","Mircea cel Bătrân","Decebal","Mihai Viteazul","Alexandru Ioan Cuza","Mihai Viteazul","http://imgur.com/wzX81oN.jpg"],
+		["Cine este această persoană?","Mircea cel Bătrân","Decebal","Mihai Viteazul","Ştefan cel Mare","Mircea cel Bătrân","http://imgur.com/ZxtSAwQ.jpg"],
+		["Ce bătălie este ilustrată în imagine?","Bătălia de la Aqaba","Asaltul Plevnei","Bătălia de la Rovine","Cucerirea Kazanului","Bătălia de la Rovine","http://imgur.com/AowkxtJ.jpg"],
+		["Cine a fost această persoană?","Mohamed I","Şeicul Alabi Bababi","Mahatma Gandhi","Baiazid al III-lea","Mohamed I","http://imgur.com/Ohdlyac.jpg"],
+		["Cine a fost această persoană?","Napoleon Bonaparte","Alexandru Ioan Cuza","Nicolae al II-lea","Filip al II-lea","Napoleon Bonaparte","http://imgur.com/JA8MZEn.jpg"],
+		["Cine a fost această persoană?","Napoleon Bonaparte","Alexandru Ioan Cuza","Nicolae al II-lea","Filip al II-lea","Napoleon Bonaparte","http://imgur.com/aEvjBLd.jpg"],
+		["Ce bătălie este ilustrată în imagine?","Bătălia de la Waterloo","Bătălia de la Kursk","Bătălia de la Călugăreni","Bătălia de la Bannockburn","Bătălia de la Waterloo","http://imgur.com/cEYzyRx.jpg"],
+		["Cine este această persoană?","Erwin Rommel","Donald Trump","George Smith Patton","Dwight Eisenhower","George Smith Patton","http://imgur.com/HX50D1v.jpg"],
+		["De unde provine acest model de tanc?","America","Japonia","Rusia","Germania","America","http://imgur.com/VQRUXId.jpg"],
+		["De unde provine acest model de tanc?","America","Japonia","Rusia","Germania","Germania","http://imgur.com/CwwMI9b.jpg"],
+		["Unde a fost făcută această poză?","Mongolia","Filipine","Vietnam","Rusia","Vietnam","http://imgur.com/WUwMpgu.jpg"],
+		["Cine a fost această persoană?","Vladimir Lenin","Nicolae Ceauşescu","Iosif Stalin","Fidel Castro","Vladimir Lenin","http://imgur.com/rarC5hM.jpg"],
+		["Cum se numeşte pictura din imagine?","Cina cea de taină","Sfânta Treime","Mântuitorul în glorie","Botezul lui Iisus","Sfânta Treime","http://imgur.com/1S5UQ3I.jpg"],
+		["Cum se numeşte pictura din imagine?","Cina cea de taină","Sfânta Treime","Mântuitorul în glorie","Botezul lui Iisus","Mântuitorul în glorie","http://imgur.com/RNAO2qi.jpg"],
+		["Cum se numeşte pictura din imagine?","Cina cea de taină","Sfânta Treime","Mântuitorul în glorie","Botezul lui Iisus","Botezul lui Iisus","http://imgur.com/andgKef.jpg"],
+		["Cine a fost această persoană?","Henry al VIII-lea","Thomas More","William Wallace","Filip al II-lea al Spaniei","Henry al VIII-lea","http://imgur.com/xzV1DMX.jpg"],
+		["Cine a fost această persoană?","Henry al VIII-lea","Thomas More","William Wallace","Filip al II-lea al Spaniei","Thomas More","http://imgur.com/utL6A6m.jpg"],
+		["Cine este această persoană?","David","Spartacus","Socrates","Platon","Spartacus","http://imgur.com/dDAG1F9.jpg"],
+		["Ce se află în această imagine","Prima bombă atomică construită","Prima bombă atomică folosită într-un conflict","Prima mină subacvatică","Primul minisubmarin","Prima bombă atomică construită","http://imgur.com/QvXDr7p.jpg"],
+		["Ce se află în această imagine","Prima bombă atomică construită","Prima bombă atomică folosită într-un conflict","Prima mină subacvatică","Primul minisubmarin","Prima bombă atomică folosită într-un conflict","http://imgur.com/bvB3il2.jpg"],
+		["Cine este această persoană?","Mircea cel Bătrân","Tudor Vladimirescu","Ion Brătianu","Ştefan cel Mare","Tudor Vladimirescu","http://imgur.com/WBITWDY.jpg"]
 		
 		
 		
@@ -576,20 +576,20 @@ function viteza(){
 	if(vit==3)
 	{
 		vit=1;
-		document.getElementById("b3").src='imagini/buttonoff.png';
-		document.getElementById("b2").src='imagini/buttonoff.png';
-		document.getElementById("b3s").src='imagini/buttonoff.png';
-		document.getElementById("b2s").src='imagini/buttonoff.png';
+		document.getElementById("b3").src='http://imgur.com/gwtPyyc.png';
+		document.getElementById("b2").src='http://imgur.com/gwtPyyc.png';
+		document.getElementById("b3s").src='http://imgur.com/gwtPyyc.png';
+		document.getElementById("b2s").src='http://imgur.com/gwtPyyc.png';
 		speed=0.08;
 	}else if(vit==2){
 		vit=vit+1;
-		document.getElementById("b3").src='imagini/buttonon.png';
-		document.getElementById("b3s").src='imagini/buttonon.png';
+		document.getElementById("b3").src='http://imgur.com/ZuYcl7Q.png';
+		document.getElementById("b3s").src='http://imgur.com/ZuYcl7Q.png';
 		speed=0.2;
 	}else if(vit==1){
 		vit=vit+1;
-		document.getElementById("b2").src='imagini/buttonon.png';
-		document.getElementById("b2s").src='imagini/buttonon.png';
+		document.getElementById("b2").src='http://imgur.com/ZuYcl7Q.png';
+		document.getElementById("b2s").src='http://imgur.com/ZuYcl7Q.png';
 		speed=0.125;
 	}
 	
@@ -629,7 +629,7 @@ function test(){
 	document.getElementById("intrebare").innerHTML="intrebarea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+(i+1);
 	
 		if(i==10)
-				{	document.getElementById("imaginetest").src="imagini/pixel.png";
+				{	document.getElementById("imaginetest").src="http://imgur.com/7kZBezR.png";
 					document.getElementById("c0").innerHTML="?";
 					document.getElementById("c1").innerHTML="?";
 					document.getElementById("c2").innerHTML="?";
@@ -713,20 +713,20 @@ function apasat1(){
 	if(x1===x5)
 	{	corect.play();
 		corect.volume=0.2;
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout11,250);
 		setTimeout(corectTimeout12,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout11,250);
 		setTimeout(gresitTimeout12,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}
@@ -745,20 +745,20 @@ function apasat2(){
 	if(x2===x5)
 	{	corect.play();
 		corect.volume=0.2;
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout21,250);
 		setTimeout(corectTimeout22,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout21,250);
 		setTimeout(gresitTimeout22,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}
@@ -777,20 +777,20 @@ function apasat3(){
 	if(x3===x5)
 	{	corect.play();
 		corect.volume=0.2;
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout31,250);
 		setTimeout(corectTimeout32,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout31,250);
 		setTimeout(gresitTimeout32,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}
@@ -809,20 +809,20 @@ function apasat4(){
 	if(x4===x5)
 	{	corect.volume=0.2;
 		corect.play();
-		cont.style.background="#222 url(imagini/stripecorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 		setTimeout(corectTimeout41,250);
 		setTimeout(corectTimeout42,500);
 		raspunsuri=raspunsuri+1;
 	}
 	else{gresit.volume=0.2;
 		gresit.play();
-		cont.style.background="#222 url(imagini/stripeincorect.png) repeat";
+		cont.style.background="#222 url(http://imgur.com/D7csTdO.png) repeat";
 		setTimeout(gresitTimeout41,250);
 		setTimeout(gresitTimeout42,500);
 		for(var j=1;j<=4;j++)
 		{if(b==j)
 			{
-				document.getElementById("c"+j).style.background="#222 url(imagini/stripecorect.png) repeat";
+				document.getElementById("c"+j).style.background="#222 url(http://imgur.com/47bh9O0.png) repeat";
 				
 				
 			}

@@ -125,23 +125,23 @@ var nume_buton=['','Instrucțiuni','Start','descoperă'];
 var x;
 
 var matrice=[
-['________ _______','cavaleri teutoni','url(imaginitest/alexandrist2.jpg)'],
-['_______ __ __ ______',"bătălia de pe gheață",'url(imaginitest/alexandrist3.jpg)'],
-['_______ __ __ __________',"bătălia de la gettysburg",'url(imaginitest/birthist3.jpg)'],
-['______ _______','circus maximus','url(imaginitest/benhurist3.jpg)'],
-['__ ____ ____','ku klux klan','url(imaginitest/birthist4.jpg)'],
-['____________ ________','crucișătorul potemkin','url(imaginitest/crucisatorist1.jpg)'],
-['______ __ __ _______','atacul de la smârdan','url(imaginitest/indepist2.jpg)'],
-['_____ __ __ ____ ____','podul de pe râul kwai','url(imaginitest/kwaiist1.jpg)'],
-['__________ ___ _________','debarcarea din normandia','url(imaginitest/longestist1.jpg)'],
-['_______ __ __ __________','bătălia de la călugăreni','url(imaginitest/mihaiist2.jpg)'],
-['_______ __ __ ______','bătălia de la rovine','url(imaginitest/mirceaist2.jpg)'],
-['_______ __ __ ________','bătălia de la waterloo','url(imaginitest/napoleonist3.jpg)'],
-['_____ __ __________','lupte de gladiatori','url(imaginitest/spartacusist2.jpg)'],
-['______','trinity','url(imaginitest/tarmist1.jpg)'],
-['______ ___','little boy','url(imaginitest/tarmist2.jpg)'],
-['_________ _________','cucerirea kazanului','url(imaginitest/ivanist3.jpg)'],
-['_______ ______','mahatma gandhi','url(imaginitest/gandhiist1.jpg)']
+['________ _______','cavaleri teutoni','url(http://imgur.com/tIJRUO1.jpg)'],
+['_______ __ __ ______',"bătălia de pe gheață",'url(http://imgur.com/i93BwEx.jpg)'],
+['_______ __ __ __________',"bătălia de la gettysburg",'url(http://imgur.com/7LvTw2R.jpg)'],
+['______ _______','circus maximus','url(http://imgur.com/GJc6Rjx.jpg)'],
+['__ ____ ____','ku klux klan','url(http://imgur.com/oZwus04.jpg)'],
+['____________ ________','crucișătorul potemkin','url(http://imgur.com/oxLQYnQ.jpg)'],
+['______ __ __ _______','atacul de la smârdan','url(http://imgur.com/Wam3j1C.jpg)'],
+['_____ __ __ ____ ____','podul de pe râul kwai','url(http://imgur.com/ThJSXQw.jpg)'],
+['__________ ___ _________','debarcarea din normandia','url(http://imgur.com/Qasianh.jpg)'],
+['_______ __ __ __________','bătălia de la călugăreni','url(http://imgur.com/rcX8s6X.jpg)'],
+['_______ __ __ ______','bătălia de la rovine','url(http://imgur.com/KH5Z8Ic.jpg)'],
+['_______ __ __ ________','bătălia de la waterloo','url(http://imgur.com/q6iQxYE.jpg)'],
+['_____ __ __________','lupte de gladiatori','url(http://imgur.com/AG6P828.jpg)'],
+['______','trinity','url(http://imgur.com/XBKs2fs.jpg)'],
+['______ ___','little boy','url(http://imgur.com/R6FaMd5.jpg)'],
+['_________ _________','cucerirea kazanului','url(http://imgur.com/1PiXnMR.jpg)'],
+['_______ ______','mahatma gandhi','url(http://imgur.com/DrWFuOw.jpg)']
 
 ];
 var scor=1000;

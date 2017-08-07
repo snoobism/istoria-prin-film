@@ -1,7 +1,7 @@
 
 var y0=window.screen.availHeight;
 var x0=window.screen.availWidth;
-var a0=["url('imagini/americanflag.jpg')","url('imagini/europeanflag.jpg')","url('imagini/russianflag.jpg')","url('imagini/romanianflag.jpg')"];
+var a0=["url('http://imgur.com/1e5Twx1.jpg')","url('http://imgur.com/ohOmTBK.jpg')","url('http://imgur.com/MmNmwwE.jpg')","url('http://imgur.com/869Q9cA.jpg')"];
 var a1=["17","9","9","9"];
 var tex=[
 	["&nbsp;","&nbsp;","&nbsp;","&nbsp;"],
@@ -22,10 +22,10 @@ var aUS=[
 var k=0;
 var div=[];
 var a2=[
-["url(imagini/birthofnationimg.jpg),url(imagini/birthofnation.jpg)","url(imagini/intoleranceimg.jpeg),url(imagini/intolerance.jpeg)","url(imagini/gonewiththewindimg.jpg),url(imagini/gonewiththewind.jpg)","url(imagini/benhurimg.jpg),url(imagini/benhur.jpg)","url(imagini/onthebeachimg.jpg),url(imagini/onthebeach.jpg)","url(imagini/spartacusimg.jpg),url(imagini/spartacus.jpg)","url(imagini/thelongestdayimg.jpg),url(imagini/thelongestday.jpg)","url(imagini/theagonyimg.jpg),url(imagini/theagony.jpg)","url(imagini/pattongimg.jpg),url(imagini/pattong.jpg)","url(imagini/apocalypseimg.jpg),url(imagini/apocalypse.jpg)","url(imagini/redsimg.jpg),url(imagini/reds.jpg)","url(imagini/gandhiimg.jpg),url(imagini/gandhi.jpg)","url(imagini/platoonimg.jpg),url(imagini/platoon.jpg)","url(imagini/braveheartimg.jpg),url(imagini/braveheart.jpg)","url(imagini/ryanimg.jpg),url(imagini/ryan.jpg)","url(imagini/pianistimg.jpg),url(imagini/pianist.jpg)","url(imagini/schindlerimg.jpg),url(imagini/schindler.jpg)"],//"url(imagini/redsimg.jpg),url(imagini/reds.jpg)",
-["url(imagini/napoleonimg.jpg),url(imagini/napoleon.jpg)","url(imagini/ioanaimg.jpg),url(imagini/ioana.jpg)","url(imagini/quietimg.jpg),url(imagini/quiet.jpg)","url(imagini/kwaiimg.jpg),url(imagini/kwai.jpg)","url(imagini/arabiaimg.jpg),url(imagini/arabia.jpg)","url(imagini/seasonsimg.jpg),url(imagini/seasons.jpg)","url(imagini/algeriaimg.jpg),url(imagini/algeria.jpg)","url(imagini/dasbootimg.jpg),url(imagini/dasboot.jpg)","url(imagini/lavitaebellaimg.jpg),url(imagini/lavitaebella.jpg)"],
-["url(imagini/crucisatorimg.jpg),url(imagini/crucisator.jpg)","url(imagini/ivanimg.jpg),url(imagini/ivan.jpg)","url(imagini/cocoriimg.jpg),url(imagini/cocori.jpg)","url(imagini/donimg.jpg),url(imagini/don.jpg)","url(imagini/destinimg.jpg),url(imagini/destin.jpg)","url(imagini/rublevimg.jpg),url(imagini/rublev.jpg)","url(imagini/admiralimg.jpg),url(imagini/admiral.jpg)","url(imagini/stalingradimg.jpg),url(imagini/stalingrad.jpg)","url(imagini/alexandrimg.jpg),url(imagini/alexandr.jpg)"],
-["url(imagini/indepimg.jpg),url(imagini/indep.jpg)","url(imagini/tudorimg.jpg),url(imagini/tudor.jpg)","url(imagini/daciiimg.jpg),url(imagini/dacii.jpg)","url(imagini/columnaimg.jpg),url(imagini/columna.jpg)","url(imagini/mihaiimg.jpg),url(imagini/mihai.jpg)","url(imagini/mirceaimg.jpg),url(imagini/mircea.jpg)","url(imagini/patrieimg.jpg),url(imagini/patrie.jpg)","url(imagini/spanzuratiimg.jpg),url(imagini/spanzurati.jpg)","url(imagini/stefanimg.jpg),url(imagini/stefan.jpg)"]
+["url(http://imgur.com/vDJaoMF.jpg),url(http://imgur.com/bMRESgj.jpg)","url(http://imgur.com/SyFa73a.jpeg),url(http://imgur.com/gtP8Ksx.jpeg)","url(http://imgur.com/jkBAfQE.jpg),url(http://imgur.com/I0Xwj1x.jpg)","url(http://imgur.com/QXmLrwE.jpg),url(http://imgur.com/E0wuL6E.jpg)","url(http://imgur.com/Fr4Rwvt.jpg),url(http://imgur.com/Ii9zOTF.jpg)","url(http://imgur.com/Da6Gykx.jpg),url(http://imgur.com/nZBURmS.jpg)","url(http://imgur.com/yxq5Qj4.jpg),url(http://imgur.com/CbnWJ7w.jpg)","url(http://imgur.com/FGz54we.jpg),url(http://imgur.com/gBuQP85.jpg)","url(http://imgur.com/AAWWxbG.jpg),url(http://imgur.com/vyciqSx.jpg)","url(http://imgur.com/FGSt5gf.jpg),url(http://imgur.com/YuWpJ4u.jpg)","url(http://imgur.com/q5T8T3V.jpg),url(http://imgur.com/YGY9N5r.jpg)","url(http://imgur.com/rzDBviy.jpg),url(http://imgur.com/peP8EkK.jpg)","url(http://imgur.com/I3yikZJ.jpg),url(http://imgur.com/FQhGK5O.jpg)","url(http://imgur.com/fXIbzR8.jpg),url(http://imgur.com/GpwdIM2.jpg)","url(http://imgur.com/Y20AAYk.jpg),url(http://imgur.com/Z4xzzUY.jpg)","url(http://imgur.com/4O5iLco.jpg),url(http://imgur.com/wtYPAPa.jpg)","url(http://imgur.com/xoKopBE.jpg),url(http://imgur.com/l6XQfIq.jpg)"],
+["url(http://imgur.com/3CUPZHW.jpg),url(http://imgur.com/SAZhy1a.jpg)","url(http://imgur.com/icnFbLZ.jpg),url(http://imgur.com/jt9OJn2.jpg)","url(http://imgur.com/rYOBqWf.jpg),url(http://imgur.com/dMxzIgF.jpg)","url(http://imgur.com/tc0CIoB.jpg),url(http://imgur.com/l8KXGPO.jpg)","url(http://imgur.com/qETlSJS.jpg),url(http://imgur.com/9WS9RCT.jpg)","url(http://imgur.com/yfr4lLv.jpg),url(http://imgur.com/HDARwD3.jpg)","url(http://imgur.com/VEeCNgQ.jpg),url(http://imgur.com/uoIvDQ7.jpg)","url(http://imgur.com/Z54boiH.jpg),url(http://imgur.com/vcWcZof.jpg)","url(http://imgur.com/GiHka5D.jpg),url(http://imgur.com/JzWAHmZ.jpg)"],
+["url(http://imgur.com/uctOV9j.jpg),url(http://imgur.com/WkA08Mc.jpg)","url(http://imgur.com/GvonZG5.jpg),url(http://imgur.com/IwET2Tx.jpg)","url(http://imgur.com/yDqDfu4.jpg),url(http://imgur.com/qdjvRUr.jpg)","url(http://imgur.com/ox8Q8Ec.jpg),url(http://imgur.com/DwdSG5W.jpg)","url(http://imgur.com/2NSTFAr.jpg),url(http://imgur.com/u6ZsSOd.jpg)","url(http://imgur.com/3El3yww.jpg),url(http://imgur.com/PHqBNYA.jpg)","url(http://imgur.com/JfPjjOU.jpg),url(http://imgur.com/YaI7f4D.jpg)","url(http://imgur.com/Yq5ru5C.jpg),url(http://imgur.com/lz9k8m4.jpg)","url(http://imgur.com/fVGSVDh.jpg),url(http://imgur.com/iiuQzFE.jpg)"],
+["url(http://imgur.com/ffbHt47.jpg),url(http://imgur.com/rdNymny.jpg)","url(http://imgur.com/CmDTIIZ.jpg),url(http://imgur.com/FH0zbUd.jpg)","url(http://imgur.com/a4Fb6Bw.jpg),url(http://imgur.com/pvERQIZ.jpg)","url(http://imgur.com/4mBCOW0.jpg),url(http://imgur.com/1NVClXw.jpg)","url(http://imgur.com/pzcWTLe.jpg),url(http://imgur.com/pafdt7e.jpg)","url(http://imgur.com/El9zO7a.jpg),url(http://imgur.com/prVtDPr.jpg)","url(http://imgur.com/1tnYWC5.jpg),url(http://imgur.com/Wqn4AQd.jpg)","url(http://imgur.com/dfTItG1.jpg),url(http://imgur.com/MUuzXAk.jpg)","url(http://imgur.com/pPkFt9x.jpg),url(http://imgur.com/rPTfNPF.jpg)"]
 ]
 var a3=[
 ["5%, 0 20%","5%, 0 50%","5%, 0 35%","5%, 0 70%","5%, 0 30%","5%, 0 60%","5%, 0 55%","5%, 0 40%","5%, 0 40%","5%, 0 45%","5%, 0 25%","5%, 0 25%","5%, 0 25%","5%, 0 25%","5%, 0 60%","5%, 0 50%","5%, 0 45%"],
@@ -469,9 +469,9 @@ var lung=0,t,ok=0;
 function clic(){
 	if(ok==0&&k==0)
 	{bara();
-	document.getElementById("ex").src="imagini/up.png";}
+	document.getElementById("ex").src="http://imgur.com/OPfAZqK.png";}
 	else if(ok==1&&k==0){bara2();
-	document.getElementById("ex").src="imagini/down.png";
+	document.getElementById("ex").src="http://imgur.com/1F72TzW.png";
 	}
 }
 

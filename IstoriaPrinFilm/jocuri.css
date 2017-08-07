@@ -84,7 +84,7 @@ a{
 }
 #standard{
 	position:relative;
-	background-image:url(imagini/bggrid.jpg);
+	background-image:url(http://imgur.com/Y1AFGCk.jpg);
 	background-position:0% 100%;
 	width:100%;
 	display:block;
@@ -93,7 +93,7 @@ a{
 
 }
 #standard:hover{
-	background-image:url(imagini/bggrid.jpg);
+	background-image:url(http://imgur.com/Y1AFGCk.jpg);
 	background-position:0% 0%;
 }
 .buton{

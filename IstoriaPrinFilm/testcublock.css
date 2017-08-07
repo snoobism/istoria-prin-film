@@ -1,6 +1,6 @@
 body{
 	margin:0 auto;
-	background-image: url("imagini/testbackground.jpg");
+	background-image: url("http://imgur.com/u2DHYuA.jpg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -95,7 +95,7 @@ a{
 }
 #banner{
 	background-size:100%;
-	background-image:url(imagini/testbg1.jpg);
+	background-image:url(http://imgur.com/L9UhbWJ.jpg);
 	background-repeat:no-repeat;
 	background-position:0% 65%;
 }
@@ -144,7 +144,7 @@ a{
   position: absolute;
   width: 0%;
   height: 100%;
-  background:#222 url(imagini/stripe3.png) repeat;
+  background:#222 url(http://imgur.com/570s0HM.png) repeat;
 }
 #cont2{
 	margin-top:20px;
@@ -231,7 +231,7 @@ a{
 
 }
 #STARTBUTTON{
-	background:url(imagini/testbg1.jpg) 100%;
+	background:url(http://imgur.com/L9UhbWJ.jpg) 100%;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;

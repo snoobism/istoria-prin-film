@@ -1,5 +1,5 @@
 body{
-	background: #222 url(imagini/stripe2.png) repeat;
+	background: #222 url(http://imgur.com/uELz2c8.png) repeat;
 	margin:0 auto;
 }
 
@@ -84,7 +84,7 @@ li:last-child:hover{
 }
 #america{
 	background-size:10%,20%,100%;
-	background-image:url(imagini/america.png),url(imagini/liberty.png),url(imagini/americabg.jpg);
+	background-image:url(http://imgur.com/lWNZO5K.png),url(http://imgur.com/m6fkVw0.png),url(http://imgur.com/J3UO64l.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -60px,0;
 	transition:0.5s all;
@@ -92,14 +92,14 @@ li:last-child:hover{
 }
 #america:hover{
 	background-size:15%,25%,110%;
-	background-image:url(imagini/america.gif),url(imagini/liberty.png),url(imagini/americabg.jpg);
+	background-image:url(http://imgur.com/lWzwtv5.gif),url(http://imgur.com/m6fkVw0.png),url(http://imgur.com/J3UO64l.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -60px,0;
 	
 }
 #europa{
 	background-size:10%,20%,100%;
-	background-image:url(imagini/europa.png),url(imagini/david.png),url(imagini/europabg.jpg);
+	background-image:url(http://imgur.com/DowoDN7.png),url(http://imgur.com/hcvLFEa.png),url(http://imgur.com/oYZe1hK.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -4px,0;
 	transition:0.5s all;
@@ -107,14 +107,14 @@ li:last-child:hover{
 }
 #europa:hover{
 	background-size:15%,25%,110%;
-	background-image:url(imagini/europa.gif),url(imagini/david.png),url(imagini/europabg.jpg);
+	background-image:url(http://imgur.com/zO7bnq0.gif),url(http://imgur.com/hcvLFEa.png),url(http://imgur.com/oYZe1hK.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -4px,0;
 	
 }
 #rusia{
 	background-size:8%,20%,100%;
-	background-image:url(imagini/rusia.png),url(imagini/lenin.png),url(imagini/rusiabg.jpg);
+	background-image:url(http://imgur.com/qjlpo8V.png),url(http://imgur.com/1SkqgMU.png),url(http://imgur.com/kqX3KoD.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -4px,0;
 	transition:0.5s all;
@@ -122,21 +122,21 @@ li:last-child:hover{
 }
 #rusia:hover{
 	background-size:13%,25%,110%;
-	background-image:url(imagini/rusia.gif),url(imagini/lenin.png),url(imagini/rusiabg.jpg);
+	background-image:url(http://imgur.com/XD2acPj.gif),url(http://imgur.com/1SkqgMU.png),url(http://imgur.com/kqX3KoD.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -4px,0;
 	
 }
 #romania{
 	background-size:8%,20%,100%;
-	background-image:url(imagini/romania.png),url(imagini/mviteazul.png),url(imagini/romaniabg.jpg);
+	background-image:url(http://imgur.com/0CPnwoK.png),url(http://imgur.com/0s4htIG.png),url(http://imgur.com/YAreNIN.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -80px,0;
 	transition:0.5s all;
 }
 #romania:hover{
 	background-size:12%,25%,110%;
-	background-image:url(imagini/romania.gif),url(imagini/mviteazul.png),url(imagini/romaniabg.jpg);
+	background-image:url(http://imgur.com/oZw1tYI.gif),url(http://imgur.com/0s4htIG.png),url(http://imgur.com/YAreNIN.jpg);
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-position:20%,80% -80px,0;
 	
